@@ -6,16 +6,36 @@ Extra mods for our server, on top of the **Create+** modpack.
 - **Loader:** NeoForge
 - **Modpack:** Create+ **6.0.0-alpha-f** (Modrinth). The version must match the server exactly.
 
-## Install
+This repository only contains the mods that are **not** in the modpack. Your own mods and the pack mods are never touched.
+
+## First-time setup
 
 1. In the Modrinth app, install **Create+** and pick version **6.0.0-alpha-f**.
-2. Open the profile, then **Open folder** and go into `mods`.
-3. Copy the `.jar` files from this repository into that `mods` folder.
-4. Do not delete anything. The pack mods stay, and so do `Barista` and `statuseffectbars`, which the server simply skips.
-5. Launch the profile from the Modrinth app.
+2. Open the profile, click **Open folder**, and go into the `mods` folder.
+3. Open a terminal in that folder (Windows: right-click in the folder, **Open in Terminal**) and run:
 
-If there are no `.jar` files in this repository yet, there is nothing extra to install: the pack alone is enough.
+       git init -b mods
+       git remote add origin https://github.com/ArmJour/teikyo-server-config.git
+       git fetch origin mods
+       git checkout -b mods --track origin/mods
+
+   You need [Git](https://git-scm.com/downloads) installed. The extra jars now sit next to your other mods, and nothing you already had is removed.
+4. Launch the profile from the Modrinth app.
 
 ## Updating
 
-When a new jar is added here, copy it into the `mods` folder. If a jar is removed from the repository, delete it from your `mods` folder too.
+Close the game, open the same `mods` folder in a terminal, and run:
+
+    git pull
+
+Jars added to the repository are copied in. Jars removed from the repository are deleted from your folder. Other mods stay as they are.
+
+## Without Git
+
+Click **Code, Download ZIP** on the `mods` branch, unzip it, and copy the `.jar` files into your profile's `mods` folder. You then have to repeat this for every update, and delete removed jars by hand.
+
+## Notes for the maintainer
+
+`*.jar` is ignored on purpose, so a player's other mods do not show up in `git status`. Add each extra mod with `git add -f name.jar`.
+
+If there are no `.jar` files in this repository yet, there is nothing extra to install: the pack alone is enough. Keep `Barista` and `statuseffectbars` in the pack; the server just skips them.
