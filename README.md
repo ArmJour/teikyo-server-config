@@ -7,10 +7,8 @@ The `main` branch is intentionally minimal.
 
 ## Branches
 
-- `mods` – files for our shared game server setup
+- `mods` – extra mods for our shared game server, with setup instructions in its README
 
 ## Usage
 
-    git clone -b mods --single-branch https://github.com/ArmJour/teikyo-server-config.git
-
-Questions? Ask the maintainer directly.
+Switch to the `mods` branch and follow the README there.
