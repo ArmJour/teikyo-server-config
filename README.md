@@ -47,6 +47,22 @@ Click **Code, Download ZIP** on the `mods` branch, unzip it, and copy the `.jar`
 
 Keep `Barista` and `statuseffectbars` in the pack; the server just skips them.
 
+## Required libraries
+
+The Modrinth pack marks these as optional, so Prism disables them (`.jar.disabled`) when it installs the pack, even though other mods need them. They are included here as ready-to-use `.jar` files:
+
+- **Create** 6.0.10 (Create Mod License)
+- **Kotlin for Forge** 5.11.0 (LGPL-2.1)
+- **GML** 6.0.2 (MIT)
+- **MRU** 1.0.19 (All Rights Reserved)
+- **Puzzles Lib** 21.1.51 (MPL-2.0)
+- **Balm** 21.0.58 (All Rights Reserved)
+- **Cloth Config** 15.0.140 (LGPL-3.0)
+- **YetAnotherConfigLib** 3.8.2 (LGPL-3.0)
+- **Sinytra Connector** 2.0.0-beta.14 (MIT)
+
+If Prism shows "requires ... not installed" errors when you start the game, select the disabled mods in the instance's **Mods** tab and click **Enable**, or rename each `.jar.disabled` file back to `.jar`.
+
 ## Server-only mods (players do not install these)
 
 The server also runs the world generation mods Terralith, Tectonic and Lithostitched. Players do not need them.
