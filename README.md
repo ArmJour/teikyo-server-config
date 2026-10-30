@@ -40,4 +40,10 @@ Click **Code, Download ZIP** on the `mods` branch, unzip it, and copy the `.jar`
 
 ## Extra mods in this repository
 
-- **Ping Wheel** 1.12.2 (MIT license, needed on both client and server) Keep `Barista` and `statuseffectbars` in the pack; the server just skips them.
+- **Ping Wheel** 1.12.2 (MIT license, needed on both client and server)
+
+## Mods you download yourself
+
+These mods do not allow redistribution, so their jars are not in this repository. Download the exact version from Modrinth and put it in your profile's `mods` folder:
+
+- **What Are They Up To** `1.21.0-1.2.7` (NeoForge): https://modrinth.com/mod/what-are-they-up-to/version/1.21.0-1.2.7. Needs **CoroUtil**, which the Create+ pack already includes. Keep `Barista` and `statuseffectbars` in the pack; the server just skips them.
