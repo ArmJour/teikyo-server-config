@@ -38,4 +38,6 @@ Click **Code, Download ZIP** on the `mods` branch, unzip it, and copy the `.jar`
 
 `*.jar` is ignored on purpose, so a player's other mods do not show up in `git status`. Add each extra mod with `git add -f name.jar`.
 
-If there are no `.jar` files in this repository yet, there is nothing extra to install: the pack alone is enough. Keep `Barista` and `statuseffectbars` in the pack; the server just skips them.
+## Extra mods in this repository
+
+- **Ping Wheel** 1.12.2 (MIT license, needed on both client and server) Keep `Barista` and `statuseffectbars` in the pack; the server just skips them.
