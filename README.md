@@ -43,6 +43,7 @@ Click **Code, Download ZIP** on the `mods` branch, unzip it, and copy the `.jar`
 - **Ping Wheel** 1.12.2 (MIT license, needed on both client and server)
 - **What Are They Up To** 1.21.0-1.2.7 (needed on both client and server; needs CoroUtil, which the Create+ pack already includes)
 - **Kaleidoscope Cookery** 1.6.0 (needed on both client and server). By YSBB, TartaricAcid and azumic, licensed [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/); original at https://modrinth.com/mod/kaleidoscope-cookery. Not for commercial use.
+- **Create Aeronautics: Transmission & Linkage** 0.2.8 (needed on both client and server). By enxv233, licensed [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/); original at https://modrinth.com/mod/create-aeronautics-transmission-linkage. Not for commercial use.
 
 Keep `Barista` and `statuseffectbars` in the pack; the server just skips them.
 
