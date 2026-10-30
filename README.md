@@ -42,5 +42,10 @@ Click **Code, Download ZIP** on the `mods` branch, unzip it, and copy the `.jar`
 
 - **Ping Wheel** 1.12.2 (MIT license, needed on both client and server)
 - **What Are They Up To** 1.21.0-1.2.7 (needed on both client and server; needs CoroUtil, which the Create+ pack already includes)
+- **Kaleidoscope Cookery** 1.6.0 (needed on both client and server). By YSBB, TartaricAcid and azumic, licensed [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/); original at https://modrinth.com/mod/kaleidoscope-cookery. Not for commercial use.
 
 Keep `Barista` and `statuseffectbars` in the pack; the server just skips them.
+
+## Server-only mods (players do not install these)
+
+The server also runs the world generation mods Terralith, Tectonic and Lithostitched. Players do not need them.
