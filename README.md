@@ -44,6 +44,7 @@ Click **Code, Download ZIP** on the `mods` branch, unzip it, and copy the `.jar`
 - **What Are They Up To** 1.21.0-1.2.7 (needed on both client and server; needs CoroUtil, which the Create+ pack already includes)
 - **Kaleidoscope Cookery** 1.6.0 (needed on both client and server). By YSBB, TartaricAcid and azumic, licensed [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/); original at https://modrinth.com/mod/kaleidoscope-cookery. Not for commercial use.
 - **Create Aeronautics: Transmission & Linkage** 0.2.8 (needed on both client and server). By enxv233, licensed [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/); original at https://modrinth.com/mod/create-aeronautics-transmission-linkage. Not for commercial use.
+- **TrueUUID** 1.3.0 (needed on both client and server). Lets premium and offline-mode players join the same server while premium players keep their real UUID and skin. Licensed [LGPL-3.0](https://www.gnu.org/licenses/lgpl-3.0.html); original at https://modrinth.com/mod/trueuuid.
 
 Keep `Barista` and `statuseffectbars` in the pack; the server just skips them.
 
@@ -65,4 +66,8 @@ If Prism shows "requires ... not installed" errors when you start the game, sele
 
 ## Server-only mods (players do not install these)
 
-The server also runs the world generation mods Terralith, Tectonic and Lithostitched. Players do not need them.
+The server also runs the world generation mods Terralith, Tectonic and Lithostitched, and the pre-generation tool Chunky. Players do not need them.
+
+## Optional mods
+
+- **Distant Horizons** 3.3.3 (LGPL-3.0). The server runs it, but it is optional on the client. Install it yourself if you want long-distance terrain: https://modrinth.com/mod/distanthorizons/version/3.3.3-1.21.1
