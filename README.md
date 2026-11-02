@@ -47,6 +47,7 @@ Click **Code, Download ZIP** on the `mods` branch, unzip it, and copy the `.jar`
 - **TrueUUID** 1.3.0 (needed on both client and server). Lets premium and offline-mode players join the same server while premium players keep their real UUID and skin. Licensed [LGPL-3.0](https://www.gnu.org/licenses/lgpl-3.0.html); original at https://modrinth.com/mod/trueuuid.
 - **Create: Ultimate Factory** 2.2.4 (needed on both client and server). By the Create: Ultimate Factory authors; All Rights Reserved, included here so the mod list stays in sync with the server. Original at https://modrinth.com/mod/create-ultimate-factory. Requires Create, which is already in the pack.
 - **Tom's Simple Storage Mod** 2.4.2 (needed on both client and server). By tom5454, licensed [MIT](https://opensource.org/licenses/MIT); original at https://modrinth.com/mod/toms-storage.
+- **Storage Drawers** 13.11.4 (needed on both client and server). By Texelsaurus, licensed [MIT](https://opensource.org/licenses/MIT); original at https://modrinth.com/mod/storagedrawers.
 
 Keep `Barista` and `statuseffectbars` in the pack; the server just skips them.
 
