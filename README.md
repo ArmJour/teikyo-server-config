@@ -12,7 +12,8 @@ This repository only contains the mods that are **not** in the modpack. Your own
 
 1. In the Modrinth app, install **Create+** and pick version **6.0.0-alpha-f**.
 2. Open the profile, click **Open folder**, and go into the `mods` folder.
-3. Open a terminal in that folder (Windows: right-click in the folder, **Open in Terminal**) and run:
+3. Delete `sable-neoforge-1.21.1-2.0.1.jar` if it is there. It is the old Sable that ships with the pack. This repository provides Sable 2.0.6, and two Sable jars will not load together.
+4. Open a terminal in that folder (Windows: right-click in the folder, **Open in Terminal**) and run:
 
        git init -b mods
        git remote add origin https://github.com/ArmJour/teikyo-server-config.git
@@ -20,7 +21,7 @@ This repository only contains the mods that are **not** in the modpack. Your own
        git checkout -b mods --track origin/mods
 
    You need [Git](https://git-scm.com/downloads) installed. The extra jars now sit next to your other mods, and nothing you already had is removed.
-4. Launch the profile from the Modrinth app.
+5. Launch the profile from the Modrinth app.
 
 ## Updating
 
@@ -29,6 +30,10 @@ Close the game, open the same `mods` folder in a terminal, and run:
     git pull
 
 Jars added to the repository are copied in. Jars removed from the repository are deleted from your folder. Other mods stay as they are.
+
+If you still have `sable-neoforge-1.21.1-2.0.1.jar` in the folder (the pack's old Sable), delete it before pulling the Sable 2.0.6 update, otherwise you end up with two Sable jars and the game will not start. In one go:
+
+    rm -f sable-neoforge-1.21.1-2.0.1.jar && git pull
 
 ## Without Git
 
@@ -51,6 +56,9 @@ Click **Code, Download ZIP** on the `mods` branch, unzip it, and copy the `.jar`
 - **Better Days** 3.3.6.3 (needed on both client and server). By wendall911, licensed [LGPL-3.0](https://www.gnu.org/licenses/lgpl-3.0.html); original at https://modrinth.com/mod/betterdays. Lets you set how long the day and night last. Quark interferes with it in two ways:
   - The Improved Sleeping module of Quark interferes with the sleep feature of Better Days.
   - The "Nerf Clock" Quark option breaks the bed clock in Better Days. Either disable that Quark tweak, or disable the Better Days bed clock with the `displayBedClock` config option.
+- **Sable** 2.0.6 (needed on both client and server). By ryanhcode, licensed under the [PolyForm Shield License 1.0.0](https://github.com/ryanhcode/sable/blob/main/LICENSE.md); original at https://modrinth.com/mod/sable. Replaces the 2.0.1 jar from the Create+ pack and fixes a server crash caused by Create contraptions without solid blocks. Delete `sable-neoforge-1.21.1-2.0.1.jar` (see above).
+- **Stardew Fishing** 3.7 (needed on both client and server). By BrownBear85, licensed [MIT](https://opensource.org/licenses/MIT); original at https://modrinth.com/mod/stardew-fishing. A fishing minigame inspired by Stardew Valley.
+- **Create: Vault Statistics** 1.0.0 (needed on both client and server). By Lairon1, licensed [LGPL-3.0](https://www.gnu.org/licenses/lgpl-3.0.html) according to the jar (the Modrinth page says MIT); original at https://modrinth.com/mod/create-vault-statistics. Shows how full an item vault is in the goggle overlay.
 
 Keep `Barista` and `statuseffectbars` in the pack; the server just skips them.
 
